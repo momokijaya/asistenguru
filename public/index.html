@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AsistenGuru - AI Education Assistant</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20512'%3E%3Cpath%20fill='%23667eea'%20d='M320%2032c-17.7%200-32%2014.3-32%2032v16H224c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032h64V320H128c-35.3%200-64%2028.7-64%2064s28.7%2064%2064%2064h384c35.3%200%2064-28.7%2064-64s-28.7-64-64-64H352V144h64c17.7%200%2032-14.3%2032-32s-14.3-32-32-32H352V64c0-17.7-14.3-32-32-32zM64%20288c-17.7%200-32%2014.3-32%2032v64c0%2017.7%2014.3%2032%2032%2032H576c17.7%200%2032-14.3%2032-32V320c0-17.7-14.3-32-32-32H64z'/%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" href="asistenguru.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -1130,7 +1130,7 @@
                             </label>
                         </div>
                     </div>`;
-                document.getElementById('pembuat-soal').innerHTML = createPremiumTopicSelectorHTML('soal', 'Pembuat Soal Otomatis Premium', soalOptions, 'Buat Soal Profesional', 'fa-lightbulb');
+                document.getElementById('pembuat-soal').innerHTML = createPremiumTopicSelectorHTML('soal', 'Pembuat Soal Otomatis', soalOptions, 'Buat Soal', 'fa-lightbulb');
                 
                 // Pustaka Aktivitas (Premium Card Layout)
                 const a_activities = [
@@ -1171,7 +1171,7 @@
                 `;
 
                 // Other sections with premium styling
-                document.getElementById('pembuat-kuis').innerHTML = createPremiumTopicSelectorHTML('kuis', 'Pembuat Kuis Cepat Premium', '', 'Buat Kuis Interaktif', 'fa-graduation-cap');
+                document.getElementById('pembuat-kuis').innerHTML = createPremiumTopicSelectorHTML('kuis', 'Pembuat Kuis Cepat', '', 'Buat Kuis Interaktif', 'fa-graduation-cap');
                 
                 // RPP Section dengan tab premium
                 document.getElementById('perencana-rpp').innerHTML = `
